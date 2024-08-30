@@ -1,0 +1,71 @@
+img {
+  border: 10px;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#head {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+#head h3 {
+  margin: 5px 0;
+}
+
+#foot {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+#foot h3 {
+  margin: 5px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+fieldset {
+  border-radius: 10px;
+}
+
+p {
+  text-align: justify;
+}
+.table {
+  text-align: center;
+}
+table {
+  display: inline-block;
+}
+li {
+  text-align: left;
+}
+table th {
+  background-color: cadetblue;
+  color: white;
+}
+hr {
+  height: 15px;
+  background-color: cadetblue;
+}
+
+#cursos {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
