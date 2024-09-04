@@ -1,0 +1,86 @@
+body {
+  /* color de fondo */
+  background-color: beige;
+  /* elimina el margen predeterminado */
+  margin: 0;
+  /* elimina los espacios */
+  padding: 0;
+}
+header {
+  background-color: black;
+  padding: 14px;
+  color: white;
+}
+header h1 {
+  text-align: center;
+}
+
+.navigate {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+}
+.container {
+  /* organiza los hijos de forma flexible */
+  display: flex;
+  /* organiza los elementos en columnas */
+  flex-direction: column;
+  /* centra los articulos */
+  align-items: center;
+  /* espacio entre los articulos */
+  gap: 20px;
+}
+
+section article {
+  /* aplica transicion suave de 0.3 seg */
+  transition: box-shadow 0.3s ease;
+  /* color de fondo */
+  background-color: white;
+  /* agrega margen vertical */
+  margin: 16px 0;
+  /* redondea las esquinas del articulo */
+  border-radius: 8px;
+  /* Espacio */
+  padding: 4px 0;
+  /* Cambia el estilo del cursor */
+  cursor: pointer;
+}
+/* Es un estilo aplicado al pasar el cursor sobre el elemento */
+section article:hover {
+  /* Estilo sombra sobre el elemento */
+  box-shadow: 0 1.6px 6.4px gray;
+}
+section article h2,
+section article p {
+  margin: 16px;
+}
+
+footer {
+  background-color: black;
+  padding: 48px;
+  color: white;
+}
+
+footer section {
+  float: right;
+  margin: 0;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+  margin: 0;
+}
+footer p {
+  text-decoration: none;
+  margin: 0;
+}
+footer a:hover {
+  color: brown;
+}
